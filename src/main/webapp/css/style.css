@@ -1,0 +1,154 @@
+.bg-white{
+    background-color: white
+}
+
+body{
+    background-color: #f8f9fa
+}
+
+body {
+    margin:0;
+    padding:0;  
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    min-height:100vh;
+}
+
+.text-dark{
+    color: #000
+}
+
+.bg-system{
+    background-color: #022036;
+}
+
+.text-system{
+    color: #022036
+}
+
+.block {
+    position: relative;
+}
+
+.thumb-block{
+    display: block;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    object-fit: cover;  
+    object-position: 0% 40%;
+}
+
+.text {
+    top: 50px;
+    bottom: 295px;  
+    left: 40px;
+    position: absolute;
+}
+
+.objectImage {
+    width: 600px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-block {
+    position: relative;
+}
+
+.profile-block-thumb{
+    display: block;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 43px;
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 60%);
+}
+.profile-img a{
+    bottom: -35px;  
+    position: absolute;
+    left:50%;
+    margin-left:-81px;
+}
+
+.body-background{
+    background: url(../img/travel.png) center center no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #1F698E;
+}
+
+.body-background-2{
+    background: url(../img/background.jpg) center center no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fundo-principal{
+    display: block;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    object-fit: cover;  
+}
+
+.search {
+    position: absolute;
+    top: 36%;
+    bottom: 0;
+    left: 6%;
+    right: 45%;
+    min-width: 400px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.card-width{
+    width: 19rem;
+}
+
+.img-perfil{
+    background-color: #ddd;
+    border-radius: 100%;
+    height: 150px;
+    object-fit: cover;
+    width: 150px;  
+}
+
+.img-perfil-mini{
+    background-color: #ddd;
+    border-radius: 100%;
+    height: 35px;
+    object-fit: cover;
+    width: 35px;  
+}
+
+.comentario {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('https://www.euroindy.com/images/loading_on.gif') 50% 50% no-repeat white;
+    background-size: 4%;
+}
